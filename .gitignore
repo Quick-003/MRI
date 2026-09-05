@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# PyTorch Checkpoints & Large Data
+checkpoints/*.pth
+checkpoints/*.pt
+data/train/
+data/val/
+data/test/
+*.nii
+*.nii.gz
+*.dcm
+
+# Flask & Web Uploads
+static/uploads/*
+!static/uploads/.gitkeep
+static/results/*
+!static/results/.gitkeep
+
+# Outputs & Logs
+outputs/*.png
+outputs/*.csv
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
