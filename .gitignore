@@ -28,6 +28,7 @@ static/results/*
 outputs/*.png
 outputs/*.csv
 *.log
+push_to_github.cmd
 
 # IDE & OS
 .vscode/
